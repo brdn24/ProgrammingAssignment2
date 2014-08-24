@@ -41,9 +41,9 @@ cacheSolve <- function(x, ...) {
         ## Calculates the inverse of the matrix
         M <- solve(data, ...)
 
-		## Store M for future retrieval
+	## Store M for future retrieval
         x$setInv(M)
 
-		## Return the inverse
+	## Return the inverse
         M
 }
